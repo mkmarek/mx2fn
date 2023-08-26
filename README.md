@@ -22,7 +22,7 @@ function myFuncName (a, b) {
 }
 ```
 
-## Typescript
+### Typescript
 
 ```bash
 echo "2*(a+b)^2" | mx2fn --ts myFuncName
@@ -36,7 +36,7 @@ function myFuncName (a: number, b: number): number {
 }
 ```
 
-## Rust
+### Rust
 
 ```bash
 echo "2*(a+b)^2" | mx2fn --rs my_func_name
